@@ -1,2 +1,76 @@
 .ipynb_checkpoints
-*/.ipynb_checkpoints/*
+*/.ipynb_checkpoints/* 
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Emacs
+.#*
+
+^C
+
+##ignore data files: files in "Topic 2 Dataset A"
+2021.csv
+AQI_Data/
+
+ghcnd-stations.txt
+us_air_quality_measures.csv
+us_greenhouse_gas_emission_direct_emitter_gas_type.csv
+us_greenhouse_gas_emissions_direct_emitter_facilities.csv
+GHCN_data_preprocessing.ipynb
+daily_global_weather_2020.csv
